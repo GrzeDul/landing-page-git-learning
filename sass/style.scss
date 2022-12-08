@@ -216,3 +216,46 @@ footer {
         margin:5px;
     }
 }
+
+// media-querries
+
+@media (max-width: 720px) {
+    .portfolio {
+        padding-bottom: 50px;
+    }
+    footer {
+        .circle-row {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        p {
+            order: -1;
+        }
+        .container {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .splash {
+        ul {
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 30px;
+            margin: 40px 0;
+        }
+        .splash-text-wrapper {
+            justify-content: flex-start;
+            text-align: center;
+            min-height: 300px;
+        }
+    }
+}
